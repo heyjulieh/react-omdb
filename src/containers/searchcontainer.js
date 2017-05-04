@@ -44,14 +44,14 @@ class SearchContainer extends Component {
   render(){
     if (this.state.hasSearched){
       return(
-        <div style={{justifyContent: 'center'}}>
+        <div style={styles.colCentered}>
           <button
             onClick={ event => this.handleToggleSearch(event) }
             style={styles.spaceB}
             className="btn btn-primary">
             Search Again</button>
-            <Results movies={this.state.movies} />
-            </div>
+          <Results movies={this.state.movies} />
+        </div>
       )
     } else {
         return (

@@ -1,8 +1,16 @@
+import '../index.css'
+
 const styles = {
+  colCentered: {
+    float: "none",
+    margin: "0 auto"
+  },
   home: {
-    fontFamily: "Helvetica",
+    fontFamily: "Fjalla One",
     textAlign: "center",
-    marginBottom: "30px"
+    marginBottom: "100px",
+    marginTop: "50px",
+    fontSize: "50px"
   },
   button: {
     backgroundColor: "green",
@@ -10,7 +18,6 @@ const styles = {
     borderRadius: "8px",
     borderColor: "green",
     color: "white",
-    fontFamily: "Helvetica",
     marginLeft: "10px"
   },
   input: {
@@ -22,7 +29,8 @@ const styles = {
     marginTop: "20px"
   },
   space: {
-    marginTop: '25px'
+    marginTop: '25px',
+    marginBottom: '20px'
   },
   spaceB: {
     marginBottom: '25px',

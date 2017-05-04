@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Josefin+Sans|Permanent+Marker|Quicksand|Yanone+Kaffeesatz');
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  background-image: url("http://timmatic.com/i/2016/12/movie-theater-wallpaper-desktop-background.jpg");
 }
 
-.home {
-  font-family: helvetica, sans-serif;
+button {
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
 }

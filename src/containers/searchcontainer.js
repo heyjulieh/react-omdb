@@ -45,11 +45,11 @@ class SearchContainer extends Component {
     if (this.state.hasSearched){
       return(
         <div style={styles.colCentered}>
+        <h2>Movies</h2>
           <button
             onClick={ event => this.handleToggleSearch(event) }
             style={styles.spaceB}
-            className="btn btn-primary">
-            Search Again</button>
+            className="btn btn-primary"><img height="15px" src={"http://findicons.com/files/icons/949/token/256/search.png"} /></button>
           <Results movies={this.state.movies} />
         </div>
       )

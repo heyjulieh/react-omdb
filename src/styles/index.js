@@ -6,18 +6,18 @@ const styles = {
     margin: "0 auto"
   },
   home: {
-    fontFamily: "Fjalla One",
+    fontFamily: "Quicksand",
     textAlign: "center",
     marginBottom: "100px",
     marginTop: "50px",
     fontSize: "50px"
   },
   button: {
-    backgroundColor: "green",
-    height: "30px",
+    backgroundColor: "yellow",
+    height: "45px",
     borderRadius: "8px",
-    borderColor: "green",
-    color: "white",
+    borderColor: "yellow",
+    color: "black",
     marginLeft: "10px"
   },
   input: {
@@ -34,11 +34,11 @@ const styles = {
   },
   spaceB: {
     marginBottom: '25px',
-    backgroundColor: "green",
+    backgroundColor: "yellow",
     height: "30px",
     borderRadius: "8px",
-    borderColor: "green",
-    color: "white",
+    borderColor: "yellow",
+    color: "black",
     fontFamily: "Helvetica"
   },
   posterThumb: {

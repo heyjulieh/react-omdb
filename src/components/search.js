@@ -17,7 +17,7 @@ class Search extends Component {
           style={styles.input}
           placeholder="  search for a movie title"
           value={query} />
-            <button style={styles.button} type="submit">Search</button>
+            <button style={styles.button} type="submit"><img height="35px"src={"http://findicons.com/files/icons/949/token/256/search.png"}/></button>
         </form>
       </div>
     )

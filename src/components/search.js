@@ -1,21 +1,23 @@
 console.log('made it to search.js from container')
 
 import React, {Component} from 'react'
+import styles from '../styles/index'
 // add css
 
 class Search extends Component {
   render() {
     let {handleSearchInput, handleSubmitQuery, query} = this.props
     return (
-      <div className="searchForm">
+      <div className="searchForm" style={{display: 'flex', justifyContent: 'center'}}>
         <form onSubmit={(event) => handleSubmitQuery(event)}
             className="search">
           <input
           onChange={(event) => handleSearchInput(event)}
           type="text"
-          placeholder="search for a movie title"
+          style={styles.input}
+          placeholder="  search for a movie title"
           value={query} />
-            <button type="submit">Search</button>
+            <button style={styles.button} type="submit">Search</button>
         </form>
       </div>
     )
